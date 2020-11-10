@@ -1,0 +1,31 @@
+body{
+    margin: 0 0 0;
+}
+p{
+color: black;
+    margin: 5px 5px 5px;
+}
+#menuBar ul{
+    margin: 0 0 0;
+    position: center;
+}
+#menuBar li{
+    display: inline-block;
+    height: 30px;
+    margin: 0 0 0 0;
+    padding: 15px 10px 5px;
+    background-color: white;
+    text-align: center;
+}
+#everything{
+}
+#header{
+    background-color: white;
+    margin: 0 0 20px;
+    border-bottom: 2px solid black;
+}
+#banner{
+}
+#menuBar{
+    display: inline-block;
+}

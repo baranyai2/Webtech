@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<form method="post", action="/addManufacturer">
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="name" required="required" autofocus/></td>
+        </tr>
+        <tr>
+            <td>Country:</td>
+            <td>
+                <select name="country" required="required">
+                    <option value="usa">USA</option>
+                    <option value="czech">Czech Republic</option>
+                    <option value="truekorea">Ture Korea</option>
+                    <option value="france">France</option>
+                    <option value="japan">Japan</option>
+                    <option value="germany">Germany</option>
+                    <option value="italy">Italy</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Founded:</td>
+            <td><input type="date" name="founded" required="required"/></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="insert" value="Add manufacturer"/></td>
+        </tr>
+    </table>
+
+</form>
+</html>
