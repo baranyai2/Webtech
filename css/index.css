@@ -1,9 +1,28 @@
 body{
     margin: 0 0 0;
+    background-image: url("../img/cool-background.png");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
 }
 p{
 color: black;
     margin: 5px 5px 5px;
+}
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    margin: 0 0 0;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover{
+    background-color: grey;
+    border-bottom: 5px white;
+}
+a:active{
+    background-color: red;
+    color: white;
 }
 #menuBar ul{
     margin: 0 0 0;
@@ -13,19 +32,45 @@ color: black;
     display: inline-block;
     height: 30px;
     margin: 0 0 0 0;
-    padding: 15px 10px 5px;
+    padding: 10px 0 3px;
     background-color: white;
     text-align: center;
 }
 #everything{
 }
 #header{
+    display: flex;
+    justify-content: center;
     background-color: white;
-    margin: 0 0 20px;
+    margin: 0 0 0;
     border-bottom: 2px solid black;
 }
 #banner{
 }
 #menuBar{
-    display: inline-block;
+
+}
+.tableDiv{
+    display: flex;
+    justify-content: center;
+}
+.tableDiv table{
+    width: 75%;
+    padding: 10px 10px 10px;
+    background-color: lightgray;
+}
+.tableDiv table th{
+    background-color: red;
+    color: white;
+}
+.tableDiv table th, td{
+    text-align: center;
+    vertical-align: center;
+    height: 25px;
+}
+.tableDiv table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.tableDiv table tr:nth-child(odd) {
+    background-color: white;
 }
