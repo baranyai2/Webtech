@@ -3,16 +3,16 @@
 <form method="post", action="/addManufacturer">
     <table>
         <tr>
-            <td>Name:</td>
-            <td><input type="text" name="name" required="required" autofocus/></td>
+            <td class="titleCol">Name:</td>
+            <td class="inputCol"><input class="inputBox" type="text" name="name" required="required" autofocus/></td>
         </tr>
         <tr>
-            <td>Country:</td>
-            <td>
-                <select name="country" required="required">
+            <td class="titleCol">Country:</td>
+            <td class="inputCol">
+                <select class="inputBox" name="country" required="required">
                     <option value="usa">USA</option>
                     <option value="czech">Czech Republic</option>
-                    <option value="truekorea">Ture Korea</option>
+                    <option value="korea">True Korea</option>
                     <option value="france">France</option>
                     <option value="japan">Japan</option>
                     <option value="germany">Germany</option>
@@ -21,11 +21,11 @@
             </td>
         </tr>
         <tr>
-            <td>Founded:</td>
-            <td><input type="date" name="founded" required="required"/></td>
+            <td class="titleCol">Founded:</td>
+            <td class="inputCol"><input class="inputBox" type="date" name="founded" required="required"/></td>
         </tr>
         <tr>
-            <td><input type="submit" name="insert" value="Add manufacturer"/></td>
+            <td class="submitCol" colspan="2"><input class="submitButton" type="submit" name="insert" value="Add manufacturer"/></td>
         </tr>
     </table>
 
