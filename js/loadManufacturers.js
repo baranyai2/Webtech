@@ -4,9 +4,11 @@ $(document).ready(function (){
         var table =$("#manufacturerTable")
         $.each(data, function(key, value){
             var row = $('<tr></tr>');
+            var idCell = $('<td>' + value._id + '</td>')
             var nameCell = $('<td>' + value.name + '</td>')
             var countryCell = $('<td>' + value.country + '</td>')
             var foundedCell = $('<td>' + value.founded + '</td>')
+            $(row).append(idCell);
             $(row).append(nameCell);
             $(row).append(countryCell);
             $(row).append(foundedCell);
