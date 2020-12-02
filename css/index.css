@@ -34,6 +34,17 @@ form table{
     width: 40%;
     background-color: lightgray;
 }
+#contentDiv{
+    display: flex;
+    justify-content: center;
+}
+#indexContent{
+    text-align: center;
+    border: 5px solid red;
+    padding: 10px;
+    width: 40%;
+    background-color: lightgray;
+}
 .titleCol{
     text-align: right;
     width: 25%;
